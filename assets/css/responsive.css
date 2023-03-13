@@ -1,0 +1,673 @@
+@media screen and (max-width: 1075px) and (min-width: 920px) {
+    .container {
+        width: 950px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    header .btn .signup {
+        display: none;
+    }
+
+    .banner {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+    }
+
+    .banner__left,
+    .banner__right {
+        width: 100%;
+    }
+
+    .banner__left {
+        padding-bottom: .5rem;
+        margin: 0 auto;
+    }
+
+    .banner__left ul {
+        max-width: unset;
+        margin: 0 auto;
+    }
+
+    .banner__left h1 {
+        display: none;
+    }
+
+    .banner__left {
+        max-width: 76.8rem;
+    }
+
+    .banner__right h1 {
+        left: 20rem;
+        display: inherit;
+        z-index: 1;
+    }
+
+    .banner__right {
+        margin-bottom: 5rem;
+    }
+
+    .banner__right img {
+        z-index: 0;
+        right: -10rem;
+        transform: scale(.9);
+        overflow-x: hidden;
+    }
+
+    .banner__right img:hover {
+        transform: scale(1);
+    }
+
+    .banner__right .img-bg {
+        position: relative;
+        height: 50rem;
+        width: 100%;
+        margin-left: 0rem;
+        overflow-x: hidden;
+        background: linear-gradient(268.93deg, rgba(142, 233, 151, 0.7) 12.85%, rgba(43, 237, 63, 0.7) 54.46%);
+        border-radius: 6.3rem 0rem 0rem 29.9rem;
+        box-shadow: var(--box-shadow);
+    }
+
+    #khoa_nang-cao .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 35rem);
+        gap: 5rem;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        scroll-snap-align: end;
+    }
+
+    .cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .giang_vien .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 40rem);
+        gap: 10rem;
+        justify-content: center;
+    }
+
+    .bai_viet .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+    }
+
+    .bai_viet .cards .box {
+        width: 70rem;
+    }
+
+    footer .container {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 29rem 7.4rem 8rem 8.9rem 16.9rem;
+        gap: 1rem;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1020px) and (min-width:720px) {
+
+    .container {
+        width: 700px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        margin-bottom: 5rem;
+    }
+
+    header .menu,
+    header .btn {
+        display: none;
+    }
+
+    .mobile_menu .bx-menu {
+        display: initial;
+    }
+
+    .mobile_menu .open {
+        display: block;
+        height: 48rem;
+    }
+
+    .banner {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+    }
+
+    .banner__left,
+    .banner__right {
+        width: 100%;
+    }
+
+    .banner__left {
+        padding-bottom: .5rem;
+        margin: 0 auto;
+    }
+
+    .banner__left h1 {
+        display: none;
+    }
+
+    .banner__left ul {
+        max-width: unset;
+        margin: 0 3rem;
+    }
+
+    .banner__left {
+        max-width: 76.8rem;
+    }
+
+    .banner__right h1 {
+        display: inherit;
+        z-index: 1;
+    }
+
+    .banner__right {
+        margin-bottom: 5rem;
+    }
+
+    .banner__right img {
+        z-index: 0;
+        right: -10rem;
+        overflow-x: hidden;
+    }
+
+    .banner__right img:hover {
+        transform: scale(1);
+    }
+
+    .banner__right .img-bg {
+        position: relative;
+        height: 50rem;
+        width: 100%;
+        margin-left: 0rem;
+        overflow-x: hidden;
+        background: linear-gradient(268.93deg, rgba(142, 233, 151, 0.7) 12.85%, rgba(43, 237, 63, 0.7) 54.46%);
+        border-radius: 6.3rem 0rem 0rem 29.9rem;
+        box-shadow: var(--box-shadow);
+    }
+
+    .html .card-item,
+    .js .card-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .css .card-item {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .html .card-item h3,
+    .css .card-item h3,
+    .js .card-item h3 {
+        text-align: center;
+    }
+
+    .html .card-item p,
+    .css .card-item p,
+    .js .card-item ul {
+        display: none;
+    }
+
+    #khoa_nang-cao .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 35rem);
+        gap: 5rem;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        scroll-snap-align: end;
+    }
+
+    .cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+
+    #khoa_nang-cao .container {
+        width: 700px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        left: 8rem;
+        right: 8rem;
+        bottom: 12rem;
+        transform: translateY(-15rem);
+    }
+
+    .card .html,
+    .card .js {
+        display: flex;
+        transform: translateX(10rem);
+    }
+
+    .card .css {
+        display: flex;
+        flex-direction: row-reverse;
+        transform: translateX(-10rem);
+    }
+
+    .card .html img,
+    .card .css img,
+    .card .js img {
+        margin: 0rem 5rem;
+    }
+
+    .lo_trinh h3 {
+        padding-bottom: 35rem;
+    }
+
+    .tip p {
+        display: block;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 700;
+        background-color: #3EDAD8;
+        padding: 1.2rem 6rem;
+        border-radius: 2rem;
+        margin: 50rem auto 0rem;
+        max-width: 75rem;
+    }
+
+    .giang_vien .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .bai_viet .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .bai_viet .cards .box {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+
+    footer .container {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 29rem 7.4rem 8rem 8.9rem 16.9rem;
+        gap: 1rem;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    .container {
+        width: 700px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .titles{
+        font-size: 2.5rem;
+        margin: 5rem 0rem;
+    }
+
+    header {
+        margin-bottom: -5rem;
+    }
+
+    header .menu,
+    header .btn {
+        display: none;
+    }
+
+    .nav-bar .logo {
+        font-size: 2.5rem;
+    }
+
+    .mobile_menu .bx-menu {
+        display: initial;
+    }
+
+    .mobile_menu .bx-menu,
+    .mobile_menu .bx-plus {
+        font-size: 5rem;
+    }
+
+
+    .mobile_menu .open {
+        display: block;
+        height: 47rem;
+    }
+
+    .banner {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+    }
+
+    .banner__left,
+    .banner__right {
+        width: 100%;
+    }
+
+    .banner__left {
+        padding-bottom: .5rem;
+        margin: 0 auto;
+    }
+
+    .banner__left h1 {
+        display: none;
+    }
+
+    .banner__left ul {
+        max-width: unset;
+        margin: 0 3rem;
+    }
+
+    .banner__left ul li {
+        font-size: 2rem;
+    }
+
+    .banner__left {
+        max-width: 76.8rem;
+    }
+
+    .banner__left button {
+        font-size: 2.8rem;
+        padding: 1rem 1.5rem;
+        text-transform: uppercase;
+        font-weight: 550;
+        color: #fff;
+        border-radius: 20px;
+        border: none;
+        background: linear-gradient(90deg, #F6B29D 22%, #2BED3F 94.83%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 4px 15px rgba(43, 237, 63, 0.5), -10px 4px 15px rgba(246, 178, 157, 0.5);
+        margin: 4rem 0rem 1rem;
+        transition: 0.5s;
+        max-width: 25rem;
+        outline: none;
+    }
+
+    .banner__right h1 {
+        font-size: 4rem;
+        display: block;
+        left: 3rem;
+        top: 0.5rem;
+        z-index: 1;
+    }
+
+    .banner__right {
+        margin-bottom: 5rem;
+    }
+
+    .banner__right img {
+        scale:.5;
+        z-index: 0;
+        right: -20rem;
+        bottom: -13.5rem;
+        overflow-x: hidden;
+    }
+
+    .banner__right img:hover {
+        transform: scale(1);
+    }
+
+    .banner__right .img-bg {
+        position: relative;
+        height: 25rem;
+        width: 100%;
+        margin-left: 0rem;
+        overflow-x: hidden;
+        background: linear-gradient(268.93deg, rgba(142, 233, 151, 0.7) 12.85%, rgba(43, 237, 63, 0.7) 54.46%);
+        border-radius: 2.5rem 0rem 0rem 2.5rem;
+        box-shadow: var(--box-shadow);
+    }
+
+    .khoa_co-ban {
+        max-height: 130rem;
+    }
+
+    .khoa_co-ban .titles {
+        margin: -10rem 0rem 5rem;
+    }
+
+    .khoa_co-ban .cars{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .khoa_co-ban .cards .box>img {
+        display: none;
+    }
+
+    .khoa_co-ban .cards .box .card-item img{
+        scale: 0.8;
+    }
+    
+    .khoa_co-ban .cards .box .card-item{
+        min-width: 30.5rem;
+        max-height: 35rem;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .khoa_co-ban .cards .css .card-item{
+        min-width: 30.5rem;
+        max-height: 35rem;
+        margin: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .khoa_co-ban .cards .box .card-item .description h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+
+    .html .card-item p,
+    .css .card-item p,
+    .js .card-item ul {
+        display: none;
+    }
+
+    #khoa_nang-cao .cards {
+        max-width: 40rem;
+        display: flex;
+        gap: 0rem;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        scroll-snap-align: end;
+    }
+
+    .reactjs{
+        margin-left: -3rem;
+    }
+
+    .nodejs{
+        margin: 0rem -8rem;
+    }
+
+    .cards::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    #khoa_nang-cao .container {
+        width: 700px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #khoa_nang-cao .titles{
+        padding-top: 5rem;
+    }
+
+    #khoa_nang-cao .cards .box{
+        scale: 0.7;
+    }
+
+    .lo_trinh .titles{
+        padding-bottom: 20rem;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+        width: 105%;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        left: 13rem;
+        right: 11rem;
+        bottom: 4.5rem;
+        transform: translateY(-15rem);
+        scale: .5;
+    }
+
+    .card .html,
+    .card .js {
+        display: flex;
+        transform: translateX(10rem);
+    }
+
+    .card .css {
+        display: flex;
+        flex-direction: row-reverse;
+        transform: translateX(-10rem);
+    }
+
+    .card .html img,
+    .card .css img,
+    .card .js img {
+        margin: 0rem 5rem;
+    }
+
+    .lo_trinh h3 {
+        padding-bottom: 35rem;
+    }
+
+    .tip p {
+        display: block;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 700;
+        background-color: #3EDAD8;
+        padding: 1.2rem 6rem;
+        border-radius: 2rem;
+        margin: 30rem auto 0rem;
+        max-width: 75rem;
+    }
+
+    .giang_vien .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .giang_vien .titles{
+        text-align: center;
+    }
+
+    .giang_vien .box{
+        scale: .8;
+        text-align: center;
+    }
+
+    .giang_vien .cards .box img{
+        margin: 3rem auto 2rem;
+    }
+
+    .mrsH{
+        margin-top: -25rem;
+    }
+
+    .bai_viet .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .bai_viet .cards .box {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .bai_viet .cards .box img{
+        max-width: 80%;
+        max-height: 20rem;
+        object-fit: cover;
+        border-radius: 1rem;
+        margin: 2rem auto;
+    }
+
+    .bai_viet .cards .box h4{
+        font-size: 1.8rem;
+    }
+
+    .bai_viet .cards .box .time h5{
+        font-size: 1.4rem;
+    }
+
+    
+
+    footer {
+        max-width: 100%;
+        margin-top: -5rem;
+    }
+
+    footer .container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-x: hidden;
+        padding: 0rem 3rem;
+    }
+
+    footer .logo{
+        margin-top: 5rem;
+    }
+
+    footer .giang_vien{
+        text-align: left;
+    }
+
+    footer .tp{
+        margin: 2rem 0rem;
+    }
+}
