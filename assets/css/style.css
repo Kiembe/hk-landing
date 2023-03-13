@@ -902,14 +902,14 @@ footer .contact i{
     margin-top: 2rem;
 }
 
-footer .contact i:first-child{
+footer .bxl-facebook-circle{
     color: #298fda;
 }
 
-footer .contact i:nth-child(2){
+footer .bxl-github{
     color: #000000;
 }
 
-footer .contact i:last-child{
+footer .bxl-youtube{
     color: #ff0000;
 }
