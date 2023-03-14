@@ -506,7 +506,7 @@
     }
 
     #khoa_nang-cao .cards {
-        max-width: 40rem;
+        margin-right: 5%;
         display: flex;
         gap: 0rem;
         justify-content: flex-start;
