@@ -833,7 +833,8 @@
 /* footer */
 
 footer{
-    background: linear-gradient(91.81deg, #B0F0B6 19.02%, rgba(43, 237, 63, 0.77) 99.25%);
+    background: linear-gradient(91.81deg, #39cb48 19.02%, rgba(50, 194, 64, 0.77) 99.25%);
+    text-shadow: var(--box-shadow);
 }
 
 footer .container{
@@ -851,7 +852,7 @@ footer .gioi_thieu .logo {
     font-size: 3rem;
     color: var(--pink);
     margin-bottom: 4rem;
-
+    text-shadow: var(--box-shadow);
 }
 
 footer .gioi_thieu .logo span {
@@ -862,6 +863,10 @@ footer .gioi_thieu ul li{
     font-size: 1.8rem;
     font-weight: 500;
     margin:0.5rem 0rem;
+}
+
+footer .gioi_thieu a{
+    text-decoration: underline;
 }
 
 footer .gioi_thieu p{
@@ -912,4 +917,196 @@ footer .bxl-github{
 
 footer .bxl-youtube{
     color: #ff0000;
+}
+
+.form_login{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    display: none;
+}
+
+.form_login.show {
+    display: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-form.active{
+    min-height: 53rem
+}
+
+.card-form.active .login-menu {
+    transform: translateX(-40rem)
+}
+
+.card-form.active .signup-menu{
+    transform: translateX(0)
+}
+
+.card-form{
+    display: flex;
+    position: relative;
+    width: 40rem;
+    background: linear-gradient(to top, rgba(142, 233, 151, 0.7) 12.85%, rgba(97, 237, 111, 0.7) 54.46%);
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    padding: 4rem;
+    overflow: hidden;
+}
+
+.card-form h3{
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 2rem 0rem;
+    text-align: center;
+    text-shadow: var(--box-shadow);
+}
+
+.input-box{
+    position: relative;
+    height: 5rem;
+    width: 100%;
+    margin: 3rem 0rem;
+    border-bottom: 0.2rem solid #9a9999;
+    font-size: 2.5rem;
+}
+
+.input-box input{
+    outline: none;
+    border: none;
+    background-color: initial;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0rem .8rem ;
+}
+
+.input-box label{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 1rem;
+    font-size: 2rem;
+    line-height: 4.84rem;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -0.5rem;
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+.forgot label input{
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.forgot label input:focus{
+    accent-color: #8d8c8c;
+}
+
+.forgot a{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.forgot a:hover{
+    text-decoration: none;
+}
+
+.card-form button{
+    width: 100%;
+    margin: 2rem 0rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 1.5rem 0rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: var(--box-shadow);
+    text-shadow: 0rem 0.4rem 1rem rgba(0, 0, 0, .4);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card-form button:active{
+    transform: scale(.9);
+}
+
+.register-login{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 0rem 0.4rem 1rem rgba(0, 0, 0, .4);
+}
+
+.register-login a{
+    text-decoration: underline;
+    margin-left: 0.5rem;
+    font-weight: 500;
+}
+
+.register-login a:hover{
+    text-decoration: none;
+}
+
+.card-form .bx-x{
+    position: absolute;
+    font-size: 3rem;
+    top: 0;
+    right: 0;
+    padding: .8rem;
+    cursor: pointer;
+    
+}
+
+.card-form .bx-x:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0rem 2rem 0rem 2rem;
+}
+
+.login-menu{
+    width: 100%;
+}
+
+.signup-menu{
+    padding: 4rem;
+    position: absolute;
+    width: 100%;
+    top :0;
+    left: 0;
+    transform: translateX(40rem)
 }
