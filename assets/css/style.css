@@ -926,6 +926,7 @@ footer .bxl-youtube{
     top: 0;
     background-color: rgba(0, 0, 0, .3);
     backdrop-filter: blur(2rem);
+    -webkit-backdrop-filter: blur(2rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -965,7 +966,7 @@ footer .bxl-youtube{
     overflow: hidden;
 }
 
-@supports ((backdrop-filter: blur())){
+@supports ((backdrop-filter: blur())) or ((-webkit-backdrop-filter: blur();)){
     .card-form{
     background: linear-gradient(to top, rgba(142, 233, 151, 0.7) 12.85%, rgba(97, 237, 111, 0.7) 54.46%);
     }
