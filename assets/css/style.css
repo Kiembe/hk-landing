@@ -965,6 +965,12 @@ footer .bxl-youtube{
     overflow: hidden;
 }
 
+@supports ((backdrop-filter: blur())){
+    .card-form{
+    background: linear-gradient(to top, rgba(142, 233, 151, 0.7) 12.85%, rgba(97, 237, 111, 0.7) 54.46%);
+    }
+}
+
 .card-form h3{
     font-size: 4rem;
     font-weight: 800;
